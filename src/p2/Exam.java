@@ -1,0 +1,28 @@
+package p2;
+
+public class Exam {
+    int rollno;
+    string course;
+    int marks;
+    Exam()
+    {
+      rollno = 10;
+      course = "B.tech";
+      marks = 90;
+    }
+       Exam ( int rollno ,string course, int marks)
+       {
+          this.rollno = rollno;
+          this.marks = marks;
+          this.course = course;
+       }
+     Exam(int rollno)
+     {
+         this.rollno = rollno;
+         marks = 88;
+     }
+    public void display()
+    {
+        System.out.println(rollno + "  "+ course+ " "+ marks);
+    }
+}
